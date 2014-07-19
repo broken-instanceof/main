@@ -1,0 +1,14 @@
+{
+  "name": "main",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+ },
+ "dependencies": {
+      "shared": "git+ssh://git@github.com:broken-instanceof/shared#master",
+      "module-a": "git+ssh://git@github.com:broken-instanceof/module-a#master"
+ },
+  "author": "",
+  "license": "ISC"
+}
