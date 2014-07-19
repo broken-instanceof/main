@@ -7,6 +7,11 @@ instanceFromThisModule.speak();
 var instanceFromA = a();
 instanceFromA.speak();
 
+if (instanceFromThisModule instanceof Ctor){
+	console.log('no problem here.');
+}
+
+// but from another module and it won't work
 
 if (instanceFromA instanceof Ctor){
 	console.log('Great job!');
